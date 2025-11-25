@@ -1,2 +1,4 @@
 .DS_Store
 google-adk/
+__pycache__/
+.env
