@@ -1,0 +1,31 @@
+{
+  "eval_set_id": "eval_set_with_scenarios",
+  "name": "eval_set_with_scenarios",
+  "eval_cases": [
+    {
+      "eval_id": "83903cba",
+      "conversation_scenario": {
+        "starting_prompt": "What can you do for me?",
+        "conversation_plan": "Ask the agent to roll a 20-sided die. After you get the result, ask the agent to check if it is prime."
+      },
+      "session_input": {
+        "app_name": "hello_world",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1766303381.950289
+    },
+    {
+      "eval_id": "fc75fc5f",
+      "conversation_scenario": {
+        "starting_prompt": "Hi, I'm running a tabletop RPG in which prime numbers are bad!",
+        "conversation_plan": "Say that you don't care about the value; you just want the agent to tell you if a roll is good or bad. Once the agent agrees, ask it to roll a 6-sided die. Finally, ask the agent to do the same with 2 20-sided dice."
+      },
+      "session_input": {
+        "app_name": "hello_world",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1766303381.950663
+    }
+  ],
+  "creation_timestamp": 1766303380.484664
+}
